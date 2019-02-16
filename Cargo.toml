@@ -1,0 +1,14 @@
+[package]
+name = "voting-rust"
+version = "0.1.0"
+authors = ["pipocaQuemada <eliyahu.ben.miney@gmail.com>"]
+
+[dependencies]
+rocket = "0.4.0"
+serde_json = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+
+[dependencies.rocket_contrib]
+version = "0.4.0"
+default-features = false
+features = ["json"]
